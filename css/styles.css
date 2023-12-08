@@ -1,0 +1,350 @@
+/*
+--------------------------
+Mobile view styling starts
+--------------------------
+*/
+
+.main {
+    background: #ffffffff;
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.nav {
+    background: #ffffffff;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    font-family: 'Montserrat';
+    padding-bottom: 10px;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#lxa_header {
+    font-size: 24px;
+}
+#sub_header {
+    color: black;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: 1000;
+}
+
+.link {
+    list-style-type: none;
+    padding-top: 9px;
+}
+
+#white_text {
+    color: #ffffffff;
+}
+
+#selected_page {
+    background: #13294b;
+    height: 40px;
+    width: 85px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#nav_button {
+    background: #62C6F2;
+    height: 40px;
+    width: 85px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#cover_photo {
+    background: #ffffffff;
+}
+
+#lxa_house {
+    width: 100%;
+}
+
+.credits {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    background: #62C6F2;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+#logan_name {
+    text-align: center;
+    height: 20px;
+}
+
+#image_credit {
+    text-align: center;
+}
+
+/*
+------------------------
+Home page styling starts
+------------------------
+*/
+
+.welcome {
+    background: #ffffffff;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    max-height: 500px;    
+}
+
+#info {
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 25px;
+    font-family: 'Montserrat';
+}
+
+#crest {
+   padding-top: 30px;
+   padding-bottom: 10%;
+   margin-right: 20px;
+}
+
+#lxa_crest {
+    max-height: 300px;
+}
+
+/*
+---------------------------
+History page styling starts
+---------------------------
+*/
+
+.history {
+    font-family: 'Montserrat';
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#intro_text {
+    padding-left: 12%;
+    padding-right: 8%;
+    padding-top: 25px;
+}
+
+#founder_photo_div {
+    padding-top: 50px;
+    padding-bottom: 10%;
+    margin-right: 55px;
+}
+
+#warren_a_cole {
+    border-radius: 10px;
+}
+
+#founder_description {
+    font-size: 12px;
+}
+
+#our_home {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#our_home_text {
+    padding-right: 12%;
+    padding-left: 8%;
+}
+
+#lxa_old_photo_div {
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+#old_lxa_photo {
+    max-height: 150px;
+    float: right;
+    border-radius: 10px;
+}
+
+/*
+------------------------
+News page styling starts
+------------------------
+*/
+
+.news {
+    font-family: 'Montserrat';
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 1fr;
+}
+
+#news_header {
+    font-family: 'Montserrat';
+}
+
+#header_div {
+    text-align: center;
+}
+
+#alumni {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#alumni_text {
+    padding-left: 12%;
+    padding-right: 8%;
+    padding-top: 25px;
+}
+
+#alumni_photo_div {
+    padding-top: 50px;
+    padding-bottom: 10%;
+    margin-right: 55px;
+}
+
+#alumni_weekend_photo {
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+#tournament {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#volleyball_text {
+    padding-right: 12%;
+    padding-left: 8%;
+}
+
+#volleyball {
+    padding-top: 30px;
+    padding-left: 55px;
+}
+
+#volleyball_photo {
+    max-height: 150px;
+    float: right;
+    border-radius: 10px;
+}
+
+
+/*
+-------------------------------------------------
+              Desktop view styling
+-------------------------------------------------
+*/
+@media screen and (min-width: 768px) {
+    #title {
+        text-align: left;
+        padding-left: 68px;
+        padding-top: 15px;
+    }
+    
+    #lxa_header {
+        font-size: 24px;
+    }
+
+    #sub_header {
+        color: black;
+        font-size: 18px;
+    }
+
+    .nav {
+        grid-template-columns: 3fr 2fr;
+        margin-bottom: -70px;
+    }
+    
+    .nav_bar {
+        grid-template-columns: 3fr 2fr 2fr 2fr;
+        justify-items: end;
+        padding-right: 20px;
+        margin: 50px;
+    }
+
+    .button_1 {
+        margin-right: 40px;
+    }
+
+    .button_2 {
+        margin-right: 40px;
+    }
+
+    .welcome {
+        grid-template-columns: 5fr 2fr;
+    }
+
+    /*
+    ------------------------
+    Home page styling starts
+    ------------------------
+    */
+
+    #crest {
+        padding-top: 30px;
+        margin-right: 50px;
+    }
+
+    /*
+    ------------------------
+    News page styling starts
+    ------------------------
+    */
+
+    #volleyball_photo {
+        max-height: 300px;
+        float: right;
+    }
+
+    #alumni_weekend_photo {
+        max-height: 300px;
+    }
+
+    /*
+    ---------------------
+    Footer styling starts
+    ---------------------
+    */
+
+    .credits {
+        display: grid;
+        grid-template-columns: 1.5fr 4fr;
+        
+        background: #62C6F2;
+        height: 60px;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    
+    #logan_name {
+        padding-left: 20px;
+        text-align: start;
+    }
+    
+    #image_credit {
+        text-align: end;
+        padding-right: 20px;
+    }
+}
