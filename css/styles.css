@@ -45,6 +45,13 @@ a:hover {
     font-weight: 1000;
 }
 
+a:focus {
+    font-weight: 1000;
+    background: #13294b;
+    color: #ffffffff;
+    border-radius: 5px;
+}
+
 .link {
     list-style-type: none;
     padding-top: 9px;
